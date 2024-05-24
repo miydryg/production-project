@@ -1,7 +1,7 @@
 import { render } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'app/provider/ThemeProvider';
-import App from './app/App';
+import App from './pages/AboutPage/ui/App';
 
 import 'shared/config/i18n/i18n';
 
