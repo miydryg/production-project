@@ -8,10 +8,11 @@
     "allowJs": true,
     "moduleResolution": "node",
     "baseUrl": ".",
-    "paths": {"*":["./src/*"]},
+    "paths": { "*": ["./src/*"] },
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
+  "include": ["src", ".eslintrc.js"],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
