@@ -8,10 +8,11 @@
     "allowJs": true,
     "moduleResolution": "node",
     "baseUrl": ".",
-    "paths": {"*":["./src/*"]},
+    "paths": { "*": ["./src/*"] },
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
+  "include": ["src", ".eslintrc.js", "./config/jest/jest.config.ts"],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
