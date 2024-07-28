@@ -100,9 +100,6 @@
                 "target": "chrome.docker",
                 "preset": "iPhone 7"
             }
-        },
-        "stories": "'../../src/**/*.stories.@(js|jsx|ts|tsx)',",
-        "storybookUrl": "'http://192.168.56.1:6006'"
+        }
     }
 }
-
