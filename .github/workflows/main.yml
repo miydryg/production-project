@@ -1,4 +1,4 @@
-name: linting, testing, buildingggggg
+name: linting, testing, building
 on:
   push:
     branches: [ master ]
