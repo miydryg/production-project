@@ -47,7 +47,7 @@ module.exports = {
             { markupOnly: true, ignoreAttribute: ['data-testid', 'to'] },
         ],
         'max-len': ['error', { ignoreComments: true, code: 100 }],
-        'react/jsx-props-no-spreading': 'enabled',
+        'react/jsx-props-no-spreading': 'off',
     },
     globals: {
         __IS_DEV__: true,
