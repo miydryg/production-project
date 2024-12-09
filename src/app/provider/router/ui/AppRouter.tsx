@@ -4,7 +4,6 @@ import { Routes, Route } from 'react-router-dom';
 import { RouteConfig } from 'shared/config/routeConfig';
 import { PageLoader } from 'shared/ui/PageLoader/PageLoader';
 
-
 const AppRouter = () => (
     <Suspense fallback={<PageLoader />}>
         <Routes>
@@ -20,4 +19,3 @@ const AppRouter = () => (
 );
 
 export default AppRouter;
-

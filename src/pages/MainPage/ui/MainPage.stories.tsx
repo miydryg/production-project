@@ -6,7 +6,6 @@ import { Themes } from 'app/provider/ThemeProvider';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import MainPage from './MainPage';
 
-
 export default {
     title: 'pages/MainPage',
     component: MainPage,
