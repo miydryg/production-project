@@ -14,17 +14,20 @@ export default {
     },
 } as ComponentMeta<typeof MainPage>;
 
-// eslint-disable-next-line arrow-body-style
-const Template: ComponentStory<typeof MainPage> = (args) => {
-    // eslint-disable-next-line react/jsx-props-no-spreading
+// eslint-disable-next-line arrow-body-style,
+const Template: ComponentStory<typeof MainPage> = (args: object) => {
     return <MainPage {...args} />;
 };
 
 export const Normal = Template.bind({});
-Normal.args = {};
+Normal.args = {
+    backgroundColor: 'white',
+};
 
 export const Dark = Template.bind({});
-Dark.args = {};
+Dark.args = {
+    backgroundColor: 'white',
+};
 Dark.decorators = [ThemeDecorator(Themes.Dark)];
 
 // export const OutlineDark = Template.bind({});

@@ -15,7 +15,7 @@ export default {
 } as ComponentMeta<typeof AboutPage>;
 
 // eslint-disable-next-line arrow-body-style
-const Template: ComponentStory<typeof AboutPage> = (args) => {
+const Template: ComponentStory<typeof AboutPage> = (args: object) => {
     // eslint-disable-next-line react/jsx-props-no-spreading
     return <AboutPage {...args} />;
 };
