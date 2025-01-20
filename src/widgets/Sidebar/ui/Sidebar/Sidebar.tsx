@@ -30,11 +30,12 @@ export const Sidebar = ({ className }: SidebarProps) => {
 
     return (
         <div
-            data-testid='sidebar'
+            data-testid="sidebar"
             className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [
                 className,
             ])}
         >
+
             <Button
                 className={cls.collapseBtn}
                 data-testid='sidebar-toggle'
@@ -44,8 +45,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
                 square
             >
                 {collapsed ? '>' : '<'}
-            </Button>
-
+        
             <div className={cls.items}>
                 <div>
                     <AppLink
