@@ -35,22 +35,17 @@ export const Sidebar = ({ className }: SidebarProps) => {
                 className,
             ])}
         >
-
             <Button
                 className={cls.collapseBtn}
                 data-testid="sidebar-toggle"
-
                 onClick={toggleSidebar}
                 theme={ThemeButton.BACKGROUND_INVERTED}
                 size={ButtonSize.L}
                 square
             >
                 {collapsed ? '>' : '<'}
-
             </Button>
 
-
-    
             <div className={cls.items}>
                 <div>
                     <AppLink
