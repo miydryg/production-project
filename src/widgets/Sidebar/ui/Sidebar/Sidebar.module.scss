@@ -5,6 +5,7 @@
     position: relative;
     transition: width 0.3s;
 }
+
 .collapseBtn {
     position: absolute !important;
     right: -32px !important;
@@ -25,8 +26,6 @@
     text-align: center;
 }
 
-
-
 .items {
     margin-top: 20px;
     display: flex;
@@ -43,21 +42,21 @@
     fill: var(--primary-color);
 }
 
-
 .collapsed {
     width: var(--sidebar-width-collapsed);
+
     .switchers {
         flex-direction: column;
         align-items: center;
     }
+
     .lang {
         margin-left: 0;
     }
-    .link{
+
+    .link {
         opacity: 0;
         transition: 0.3s opacity;
         width: 0;
     }
 }
-
-
