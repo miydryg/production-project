@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Button, ButtonSize, ThemeButton } from 'shared/ui/Button/Button';
 
-import { Route } from 'react-router-dom';
 import { RoutePath } from 'shared/config/routeConfig';
 
-import { t } from 'i18next';
 import { useTranslation } from 'react-i18next';
 import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
 import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher';
