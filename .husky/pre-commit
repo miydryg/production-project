@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+
+echo Hello World
+# npx eslint . --max-warnings=0
+
+        
+    
+     
+       
+      
+# npx lint-staged

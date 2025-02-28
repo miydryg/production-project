@@ -17,7 +17,7 @@ export function useTheme(): useThemeResult {
         const newThemes = themes === Themes.Dark ? Themes.Light : Themes.Dark;
 
         setThemes(newThemes);
-
+        document.body.className = newThemes;
         localStorage.setItem(LOCAL_STORAGE_THEME_KEY, newThemes);
     };
     return {
